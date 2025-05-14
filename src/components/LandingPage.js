@@ -34,7 +34,6 @@ const LandingPage = () => {
           <li><a href="#" onClick={() => handleScroll('footer-section')} style={{ color: '#441752', textDecoration: 'none' }}>Contact</a></li>
         </ul>
         <div style={{ display: 'flex', gap: '16px' }}>
-          <a href="#" onClick={() => navigate('/AddSupplier')} style={{ color: '#441752', textDecoration: 'none', alignSelf: 'center' }}>Supplier login?</a>
           <button onClick={() => navigate('/SignInPage')} style={{ backgroundColor: '#441752', color: '#A888B5', padding: '12px 24px', borderRadius: '8px', border: 'none', cursor: 'pointer', fontSize: '16px' }}>Sign In</button>
         </div>      
       </nav>
